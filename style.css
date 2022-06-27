@@ -3,3 +3,90 @@ Theme Name: BrawijayaFilmFestival2022
 Version: 1.0.0
 Author: PIT-ByFest22 
 */
+
+/*  1 #fe7800 
+    2 #084d6a
+    3 #030217
+*/
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&family=Averia+Serif+Libre:wght@700&family=Karla:wght@200&display=swap');
+@import url('http://fonts.cdnfonts.com/css/keep-on-truckin-2');
+
+*{
+    margin: 0;
+}
+
+#hp-page{
+    display: flex;
+    background-color: #084d6a;
+    padding: 50px 75px;
+    position: relative;
+    overflow: hidden;
+}
+
+#texture {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 0.5;
+    mix-blend-mode: screen;
+}
+
+#description, .big-logo{
+    display: block;
+    padding: 2.5%;
+    z-index: 10;
+    /* border: 1px solid black; */
+}
+
+#description{
+    width: 60%;  
+    display: flex;  
+}
+
+#desc-content{
+    margin: auto;
+    width: 90%;
+}
+
+#desc-content *{
+    margin: 10px 0;
+}
+
+#name{
+    color: #fe7800;
+    font-family: 'Keep on Truckin', sans-serif;
+    font-size: 50px;
+    text-shadow: 1px 1px 2px black;
+}
+
+#desc-text{
+    font-family: 'Averia Serif Libre', cursive;
+    text-align: justify;
+    color: #fe7800;
+}
+
+#submit-fp{
+    border: none;
+    background-color: #fe7800;
+    color: #084d6a;
+    font-family: 'Keep on Truckin', sans-serif;
+    font-size: 20px;
+    padding: 15px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#submit-fp:hover{
+    background: none;
+    color: #fe7800;
+}
+
+.big-logo{
+    width: 40%;
+    display: flex;
+}
+
+.big-logo img{
+    margin: auto;
+    width: 100%;
+}
