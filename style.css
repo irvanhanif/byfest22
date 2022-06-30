@@ -15,6 +15,64 @@ Author: PIT-ByFest22
     margin: 0;
 }
 
+
+#head1{
+    display: flex;
+    padding: 30px 80px;
+    background-color: #d4d4d4;
+    position: relative;
+    overflow: hidden;
+    height: 80px;
+}
+.logo0 {
+    padding: 5px 5px;
+    height: 60px;
+    display: flex;
+}
+.logo1 {
+    padding: 5px 5px;
+    height: 60px;
+    display: flex;
+}
+
+
+#footer{
+    display: flex;
+    background-color: #fe7800;
+    padding: 50px 50px;
+    position: relative;
+    overflow: hidden;
+}
+#footer-c{
+    margin: auto;
+}
+#footer-d{
+    margin: auto;
+}
+#footer-text{
+    font-family: 'Averia Serif Libre', cursive;
+    text-align: center;
+    padding: 50px 50px;
+    font-size: 25px;
+    color: #084d6a;
+    max-width: 900px;
+    
+}
+#footer-title{
+    text-align: center;
+    color: #fe7800;
+    font-family: 'Keep on Truckin', sans-serif;
+    font-size: 50px;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #084d6a;
+}
+.sosmed{
+    height: 30px;
+    display: block;
+    text-align: center;
+}
+
+
 #hp-page{
     display: flex;
     background-color: #084d6a;
