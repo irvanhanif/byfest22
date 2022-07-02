@@ -250,8 +250,9 @@ Author: PIT-ByFest22
     .big-logo-2{
         display: none;
     }
-    #description{
+    #description, .big-logo-1{
         width: 100%;  
+        position: relative;
     }
     #desc-content{
         text-align: center;
