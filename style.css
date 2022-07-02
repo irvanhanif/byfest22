@@ -18,7 +18,7 @@ Author: PIT-ByFest22
 
 #head1{
     display: flex;
-    padding: 20px 75px;
+    padding: 20px 10%;
     background-color: #d4d4d4;
     position: relative;
     overflow: hidden;
@@ -218,14 +218,14 @@ Author: PIT-ByFest22
     z-index: 10;
 }
 
-h2 {
+.wrapper h2 {
     color: #2B7698;
     font-family: 'Keep on Truckin', sans-serif;
     font-weight: 400;
     text-align: center;
 }
 
-p {
+.wrapper p {
     color: #2B7698;
     text-align: justify;
 }
@@ -255,5 +255,13 @@ p {
     }
     #desc-content{
         text-align: center;
+    }
+}
+@media screen and (max-width: 500px){
+    #hp-page{
+        padding: 50px 0;
+    }
+    #description, .big-logo-2{
+        padding: 0;
     }
 }
