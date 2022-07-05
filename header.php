@@ -11,12 +11,20 @@
 <body>
 <!-- disini kode header -->
 <section id="head1">
-    <div class="logo0">
-        <img src="http://brawijayafilmfest.com/wp-content/uploads/2022/06/logo-bg.png" alt="logo-byfest">
+    <div id="logo">
+        <a class="logo0" href="<?php echo get_home_url() ?>">
+            <!-- <div> -->
+                <img src="http://brawijayafilmfest.com/wp-content/uploads/2022/06/logo-bg.png" alt="logo-byfest">
+            <!-- </div> -->
+        </a>
+        <a class="logo1" href="http://nolderajatfilm.ub.ac.id">
+            <!-- <div> -->
+                <img src="http://brawijayafilmfest.com/wp-content/uploads/2022/07/logonol2-1.png" alt="logo-ndf">
+            <!-- </div> -->
+        </a>
     </div>
-    <div class="logo1">
-        <img src="http://brawijayafilmfest.com/wp-content/uploads/2022/06/logo-nolder.png" alt="logo-ndf">
+    <div id="open">
+        nol derajat film mempersembahkan
     </div>
-   
 </section>
 <!-- sampai sini -->

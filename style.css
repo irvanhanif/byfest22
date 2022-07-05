@@ -14,28 +14,40 @@ Author: PIT-ByFest22
 *{
     margin: 0;
 }
-
-
 #head1{
-    display: flex;
-    padding: 20px 10%;
-    background-color: #d4d4d4;
-    position: relative;
+    /* display: flex; */
+    /* padding: 20px 10%; */
+    /* background-color: #d4d4d4; */
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    padding: 20px 0;
     overflow: hidden;
     /* height: 80px; */
+}
+#logo{
+    display: flex;
 }
 .logo0 {
     padding: 5px 5px;
     height: 60px;
+    margin: 0;
+    margin-left: auto;
     display: flex;
 }
 .logo1 {
     padding: 5px 5px;
     height: 60px;
     display: flex;
+    margin: 0;
+    margin-right: auto;
 }
-
-
+#open{
+    text-align: center;
+    text-transform: capitalize;
+    color: #fe7800;
+    font-family: 'Averia Serif Libre', cursive;
+}
 #footer{
     display: flex;
     background-color: #fe7800;
@@ -46,10 +58,13 @@ Author: PIT-ByFest22
 #footer-c{
     margin: auto;
 }
+#footer-title, #sosmed{
+    margin: 25px 0;
+}
 #footer-d{
     margin: auto;
 }
-#footer-text{
+/* #footer-text{
     font-family: 'Averia Serif Libre', cursive;
     text-align: center;
     padding: 50px 50px;
@@ -57,7 +72,7 @@ Author: PIT-ByFest22
     color: #084d6a;
     max-width: 900px;
     position: relative;
-}
+} */
 #footer-title{
     font-size: 50px;
     display: flex;
@@ -125,12 +140,16 @@ Author: PIT-ByFest22
     position: relative;
     overflow: hidden;
 }
+#hp-page, #pg{
+    padding-top: 150px;
+}
 
 #texture {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
+    height: 100%;
     opacity: 0.5;
     mix-blend-mode: screen;
 }
@@ -204,14 +223,14 @@ Author: PIT-ByFest22
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
     padding-bottom: 5rem;
     position: relative;
     overflow: hidden;
 }
 
 .wrapper {
-    background: #D9D9D9;
+    /* background: #D9D9D9; */
     width: 60%;
     padding: 3rem 7.5rem;
     position: relative;
@@ -219,27 +238,39 @@ Author: PIT-ByFest22
 }
 
 .wrapper h2 {
-    color: #2B7698;
+    /* color: #2B7698; */
+    color: #fe7800;
     font-family: 'Keep on Truckin', sans-serif;
+    font-size: 35px;
     font-weight: 400;
     text-align: center;
     margin-bottom: 25px;
 }
 
-.wrapper p {
-    color: #2B7698;
+.wrapper p, .wrapper li {
+    /* color: #2B7698; */
+    font-size: 20px;
+    color: white;
     text-align: justify;
+}
+
+.wrapper p.fokus {
+    color: #fe7800;
 }
 
 @media screen and (max-width: 875px) {
     #footer-title, #name{
         font-size: 35px;
     }    
-    #footer-text{
+    /* #footer-text{
         font-size: 16px;
-    }
+    } */
     #hp-page{
         display: block;
+        padding: 50px;
+    }
+    #hp-page, #pg{
+        padding-top: 150px;
     }
     .big-logo-1 {
         display: block;
@@ -254,6 +285,7 @@ Author: PIT-ByFest22
     #description, .big-logo-1{
         width: 100%;  
         position: relative;
+        padding: 2.5% 0;
     }
     #desc-content{
         text-align: center;
@@ -262,13 +294,19 @@ Author: PIT-ByFest22
         width: 75%;
         padding: 3rem 5rem;
     }
+	.wrapper p, .wrapper li {
+        font-size: 18px;
+    }
 }
 @media screen and (max-width: 500px){
     #footer{
-        padding: 50px 0px;
+        padding: 50px 10px;
     }
     #hp-page{
         padding: 50px 0;
+    }
+    #hp-page, #pg{
+        padding-top: 150px;
     }
     #description, .big-logo-2{
         padding: 0;

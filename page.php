@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 <!-- disini yang per page -->
 <section id="pg">
+    <div class="space"></div>
     <img id="texture" src="http://brawijayafilmfest.com/wp-content/uploads/2022/06/Layer-4.png" alt="texture">
     <div class="wrapper">
         <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
