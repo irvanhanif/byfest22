@@ -138,11 +138,14 @@ Author: PIT-ByFest22
 
 
 #hp-page{
-    display: flex;
+    display: block;
     background-color: #084d6a;
     padding: 50px 75px;
     position: relative;
     overflow: hidden;
+}
+#top{
+    display: flex;
 }
 #hp-page, #pg{
     padding-top: 150px;
@@ -281,8 +284,10 @@ Author: PIT-ByFest22
     /* #footer-text{
         font-size: 16px;
     } */
-    #hp-page{
+    #top{
         display: block;
+    }
+    #hp-page{
         padding: 50px;
     }
     #hp-page, #pg{
@@ -358,46 +363,28 @@ Author: PIT-ByFest22
 }
 
 /* meet our artist */
-#meet{
-    display: flex;
-    background-color: #084d6a;
-    position: relative;
-    overflow: hidden;
-    padding: 50px 0px;
-}
 
-#title1{
+#moa{
+    position: relative;
+    margin-top: 50px;
+}
+#title-moa{
     color: #fe7800;
-    font-size: 50px;
     font-family: 'Keep on Truckin', sans-serif;
+    font-size: 45px;
+    text-shadow: 1px 1px 2px black;
     text-align: center;
+    margin: 25px;
 }
-#title2{
-    color: #fe7800;
-    font-size: 50px;
-    font-family: 'Keep on Truckin', sans-serif;
-    text-align: center;
+#img-moa{
+    width: calc(100% - 8px);
+    height: 70%;
+    object-fit: cover;
+    border: 4px solid #fe7800;
 }
-#desc-text1{
-    color: #fe7800;
-    text-align: justify;
-    margin: auto;
-    font-family: 'Averia Serif Libre', cursive;
-    width: 90%;
-}
-#desc-text2{
+#desc-text-moa{
     color: #fe7800;
     text-align: justify;
-    margin: auto;
-    padding-top: 15px;
+    margin: auto 25px;
     font-family: 'Averia Serif Libre', cursive;
-    width: 90%;
-}
-#desc-text3{
-    color: #fe7800;
-    text-align: justify;
-    margin: auto;
-    padding-top: 15px;
-    font-family: 'Averia Serif Libre', cursive;
-    width: 90%;
 }
