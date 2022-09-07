@@ -356,3 +356,48 @@ Author: PIT-ByFest22
 #bg-img img{
     width: 50%;
 }
+
+/* meet our artist */
+#meet{
+    display: flex;
+    background-color: #084d6a;
+    position: relative;
+    overflow: hidden;
+    padding: 50px 0px;
+}
+
+#title1{
+    color: #fe7800;
+    font-size: 50px;
+    font-family: 'Keep on Truckin', sans-serif;
+    text-align: center;
+}
+#title2{
+    color: #fe7800;
+    font-size: 50px;
+    font-family: 'Keep on Truckin', sans-serif;
+    text-align: center;
+}
+#desc-text1{
+    color: #fe7800;
+    text-align: justify;
+    margin: auto;
+    font-family: 'Averia Serif Libre', cursive;
+    width: 90%;
+}
+#desc-text2{
+    color: #fe7800;
+    text-align: justify;
+    margin: auto;
+    padding-top: 15px;
+    font-family: 'Averia Serif Libre', cursive;
+    width: 90%;
+}
+#desc-text3{
+    color: #fe7800;
+    text-align: justify;
+    margin: auto;
+    padding-top: 15px;
+    font-family: 'Averia Serif Libre', cursive;
+    width: 90%;
+}
