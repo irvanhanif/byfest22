@@ -372,13 +372,19 @@ Author: PIT-ByFest22
     color: #fe7800;
     font-family: 'Keep on Truckin', sans-serif;
     font-size: 45px;
+    position: relative;
+    z-index: 10;
     text-shadow: 1px 1px 2px black;
     text-align: center;
     margin: 25px;
 }
 #img-moa{
-    width: calc(100% - 8px);
+    width: calc(80% - 8px);
+    margin: auto;
+    z-index: 10;
     height: 70%;
+    display: block;
+    position: relative;
     object-fit: cover;
     border: 4px solid #fe7800;
 }
@@ -386,5 +392,130 @@ Author: PIT-ByFest22
     color: #fe7800;
     text-align: justify;
     margin: auto 25px;
+    margin-bottom: 25px;
+    position: relative;
+    z-index: 10;
     font-family: 'Averia Serif Libre', cursive;
+}
+
+/* dramaturgi */
+#dramaturgi{
+    padding: 50px 25px;
+    position: relative;
+    display: block;
+}
+#title-dramaturgi{
+    display: flex;
+}
+#title-dramaturgi img{
+    margin: auto;
+    width: 50%;
+}
+#elemen{
+    padding: 50px 0;
+}
+#elemen ul{
+    padding-left: 0;
+}
+#elemen ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+}
+#elemen ul li .middle-element{
+    display: flex;
+    width: 100%;
+}
+#elemen ul li .middle-element img{
+    margin: auto;
+    width: calc(200px + 10vw);
+}
+#elemen ul li .left-element,
+#elemen ul li .right-element
+{
+    display: flex;
+}
+#elemen ul li .right-element
+{
+    flex-direction: row-reverse;
+}
+#elemen ul li img{
+    width: calc(200px + 1vw);
+    margin: auto;
+}
+#elemen ul li .rigth-d{
+    padding: 10px;
+    max-width: 250px;
+    display: block;
+}
+#elemen ul li .rigth-d .title-desc-d{
+    text-transform: capitalize;
+    color: #fe7800;
+    font-family: 'Keep on Truckin', sans-serif;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px black, 0px 4px #db6600;
+    margin-bottom: 15px;
+}
+#elemen ul li .rigth-d{
+    text-transform: capitalize;
+    margin: auto;
+}
+#elemen ul li .rigth-d .desc-content-d{
+    color: #fe7800;
+    font-family: 'Averia Serif Libre', cursive;
+}
+#elemen ul li .right-element .rigth-d .desc-content-d{
+    text-align: right;
+}
+@media screen and (max-width: 1150px){	
+    #dramaturgi{
+        padding: 50px 0px;
+    }
+    #elemen ul li .left-element,
+    #elemen ul li .right-element
+    {
+        display: block;
+    }   
+    #elemen ul li .left-d{
+        display: flex;
+    }
+    #elemen ul li .rigth-d,
+    #elemen ul li .right-element .rigth-d .desc-content-d{
+        text-align: justify;
+    }
+}
+@media screen and (max-width: 700px) {
+    #elemen ul li{
+        display: block;
+    }
+    #elemen ul li .left-element,
+    #elemen ul li .right-element
+    {
+        display: flex;
+    }   
+}
+.lukisan-1, .lukisan-2, .lukisan-3{
+    position: absolute;
+}
+.lukisan-1 img, 
+.lukisan-2 img, 
+.lukisan-3 img{
+    height: 400px;
+    opacity: .35;
+}
+.lukisan-1{
+    right: 0;
+    transform: translateY(-575px) rotate(25deg);
+}
+.lukisan-2{
+    left: 0;
+    transform: translateY(150px) translateX(-75px) rotate(-25deg);
+}
+.lukisan-3{
+    right: 0;
+    transform: translateY(-575px) rotate(25deg);
 }
