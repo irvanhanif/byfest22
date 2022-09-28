@@ -521,11 +521,15 @@ Author: PIT-ByFest22
 }
 
 /* kurator */
+.kurator{
+    position: relative;
+}
 .title {
     text-align: center;
     font-family: 'Keep on Truckin';
     color: #fe7800;
     padding: 3%;
+    text-shadow: 1px 1px 2.5px black;
 }
 
 .title .h2{
@@ -541,40 +545,35 @@ Author: PIT-ByFest22
   color: #fe7800;
   padding: 5%;
 }
-
+.nama h3{
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .row .desc {
     text-align: justify;
-    font-family: 'Keep on Truckin';
     color: #fe7800;
+    font-weight: 700;
 }
 
 .column {
-    float: left;
-    width: 28%;
-    padding: 22px;
-    height: 300px;
+    width: 300px;
+    display: block;
+    padding: 20px;
   }
-
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .row{
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
-  }
-
 @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
+    .title h2{
+        font-size: 20pt;    
     }
-  }
-
+    
   .img {
     text-align: center;
   }
   .photo {
     width: 60%;
   }
+}

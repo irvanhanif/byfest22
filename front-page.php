@@ -98,29 +98,30 @@
     <div class="lukisan-3">
         <img src="http://brawijayafilmfest.com/wp-content/uploads/2022/09/merch-mas-bagas-scaled.jpeg" alt="lukisan-3">
     </div>
-    <div class="kurator">
-  <div class="title">
-    <h1 class="h1">Kurator</h1>
-    <h2 class="h2">Brawijaya Film Festival 2022</h2>
-  </div>
 
-  <div class="row">
-     <div class="column">
-      <div class="img"><img class="photo" src="img/bizan.png"></div>
-      <div class="nama"><h3>BIZAN HENDROVAN</h3></div>
-      <div class="desc"><p>Bizan Hendrovan Berasal dari Jakarta, ia pernah menjabat sebagai ketua umum UKM Nol Derajat Film UB pada tahun 2015. Beliau cukup aktif dalam bidang perfilman bekerja sebagai juru kamera hingga lini produser. Beberapa film yang telah ia garap antara lain Once Upon A Time... in a Moonless Night (Harimau Mati Meninggalkan Belang) dan Happy Girls Don’t Cry dalam omnibus Qurantine Tales. Masing-masing sebagai asisten produksi dan manajer unit produksi.</p></div>
+    <div class="kurator">
+        <div class="title">
+            <h1 class="h1">Kurator</h1>
+            <h2 class="h2">Brawijaya Film Festival 2022</h2>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <div class="img"><img class="photo" src="http://brawijayafilmfest.com/wp-content/uploads/2022/09/Bizan-Hendrovan.png"></div>
+                <div class="nama"><h3>BIZAN HENDROVAN</h3></div>
+                <div class="desc"><p>Bizan Hendrovan Berasal dari Jakarta, ia pernah menjabat sebagai ketua umum UKM Nol Derajat Film UB pada tahun 2015. Beliau cukup aktif dalam bidang perfilman bekerja sebagai juru kamera hingga lini produser. Beberapa film yang telah ia garap antara lain Once Upon A Time... in a Moonless Night (Harimau Mati Meninggalkan Belang) dan Happy Girls Don’t Cry dalam omnibus Qurantine Tales. Masing-masing sebagai asisten produksi dan manajer unit produksi.</p></div>
+            </div>
+            <div class="column">
+                <div class="img"><img class="photo" src="http://brawijayafilmfest.com/wp-content/uploads/2022/09/mas-galih.png"></div>
+                <div class="nama"><h3>GALIH PRAMUDITO</h3></div>
+                <div class="desc"><p>Galih Pramudito merupakan salah satu pendiri kolektif dan web film Mania Cinema. Aktif menulis tentang film sejak 2017. Tumbuh bersama komunitas film Pekanbaru, pernah menjadi juru program di Palagan Films dan anggota Sinelayu. Pernah menjadi peserta Akademi Arkipel dan Lokakarya Cinema Poetica x Festival Film Dokumenter. Sedang menyelesaikan pendidikan di UII Yogyakarta pada prodi Ekonomi Islam.</p></div>
+            </div>
+            <div class="column">
+                <div class="img"><img class="photo" src="http://brawijayafilmfest.com/wp-content/uploads/2022/09/mas-andhika.png"></div>
+                <div class="nama"><h3>ANDHIKA PRAYOGO</h3></div>
+                <div class="desc"><p>Andhika Prayogo adalah pendiri dari akun film bernama Cinemalinea yang berfokus pada konten ulasan, rekomendasi, dan kajian film. Selain dalam bidang jurnalistik, beliau juga merupakan seorang pembuat film pendek dan music video yang berbasis di kota Malang. Lewat Cinemalinea, Andhika telah menulis beberapa kajian sutradara yang membahas ciri khasnya bercerita, beliau pun juga merilisnya dalam format video esai yang bisa kita tonton di YouTube.</p></div>
+            </div>
+        </div>
     </div>
-    <div class="column">
-      <div class="img"><img class="photo" src="img/galih.png"></div>
-      <div class="nama"><h3>GALIH PRAMUDITO</h3></div>
-      <div class="desc"><p>Galih Pramudito merupakan salah satu pendiri kolektif dan web film Mania Cinema. Aktif menulis tentang film sejak 2017. Tumbuh bersama komunitas film Pekanbaru, pernah menjadi juru program di Palagan Films dan anggota Sinelayu. Pernah menjadi peserta Akademi Arkipel dan Lokakarya Cinema Poetica x Festival Film Dokumenter. Sedang menyelesaikan pendidikan di UII Yogyakarta pada prodi Ekonomi Islam.</p></div>
-    </div>
-    <div class="column">
-      <div class="img"><img class="photo" src="img/andhika.png"></div>
-      <div class="nama"><h3>ANDHIKA PRAYOGO</h3></div>
-      <div class="desc"><p>Andhika Prayogo adalah pendiri dari akun film bernama Cinemalinea yang berfokus pada konten ulasan, rekomendasi, dan kajian film. Selain dalam bidang jurnalistik, beliau juga merupakan seorang pembuat film pendek dan music video yang berbasis di kota Malang. Lewat Cinemalinea, Andhika telah menulis beberapa kajian sutradara yang membahas ciri khasnya bercerita, beliau pun juga merilisnya dalam format video esai yang bisa kita tonton di YouTube.</p></div>
-    </div>
-  </div>
-</div>
 </section>
 <?php get_footer(); ?>
