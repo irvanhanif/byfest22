@@ -519,3 +519,62 @@ Author: PIT-ByFest22
     right: 0;
     transform: translateY(-575px) rotate(25deg);
 }
+
+/* kurator */
+.title {
+    text-align: center;
+    font-family: 'Keep on Truckin';
+    color: #fe7800;
+    padding: 3%;
+}
+
+.title .h2{
+  font-size: 25pt;
+}
+
+.title .h1{
+  font-size: 30pt;
+}
+.nama {
+  text-align: center;
+  font-family: 'Keep on Truckin';
+  color: #fe7800;
+  padding: 5%;
+}
+
+.row .desc {
+    text-align: justify;
+    font-family: 'Keep on Truckin';
+    color: #fe7800;
+}
+
+.column {
+    float: left;
+    width: 28%;
+    padding: 22px;
+    height: 300px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+  }
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  .img {
+    text-align: center;
+  }
+  .photo {
+    width: 60%;
+  }
